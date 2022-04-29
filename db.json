@@ -1,0 +1,16 @@
+{
+    "taskList": [
+      {
+        "id": 1,
+        "task": "Tarefa 1",
+        "checked": true
+      }, 
+
+      {
+        "id": 2,
+        "task": "Tarefa 2",
+        "checked": false
+
+      }
+    ]
+  }

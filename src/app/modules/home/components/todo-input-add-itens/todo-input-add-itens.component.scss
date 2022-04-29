@@ -1,0 +1,27 @@
+@import '../../../../../dist/scss/variables.scss';
+
+
+:host { // Faz referencia ao componente host que é: todo-input-add-itens.component.html
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+
+  input{
+    width: 85%;
+
+    border: none;
+    background: $tertiary-background-color;
+
+    font-size: 15px;
+    color: $secondary-text-color;
+    text-align: center;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+    &::placeholder{
+      color: $secondary-text-color;
+    }
+  }
+
+}
